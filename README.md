@@ -27,13 +27,13 @@ Below is a summary of the classification performance for each model:
 
 | Model       | Accuracy | Precision | Recall | F1-Score | Confusion Matrix | Graphs |
 |------------|----------|------------|--------|----------|------------------|--------|
-| **VGG16**  | 70%      | 0.74       | 0.70   | 0.70     | ✅ | ✅ |
-| **VGG19**  | 75%      | 0.77       | 0.75   | 0.75     | ✅ | ✅ |
-| **InceptionV3** | 88% | 0.89       | 0.88   | 0.88     | ✅ | ✅ |
-| **ResNet50** | 66%   | 0.74       | 0.66   | 0.65     | ✅ | ✅ |
-| **Xception** | 87%   | 0.88       | 0.87   | 0.87     | ✅ | ✅ |
-| **AlexNet** | 85%    | 0.86       | 0.85   | 0.85     | ✅ | ✅ |
-| **Custom CNN** | 89% | 0.89       | 0.89   | 0.89     | ✅ | ✅ |
+| **VGG16**  | 70%      | 0.74       | 0.70   | 0.70     | ![image](https://github.com/user-attachments/assets/94092c92-4344-4a42-9e8a-ffae9e0ac671) | ![image](https://github.com/user-attachments/assets/7bb28717-0c57-44d5-ac54-a249e8840db5) |
+| **VGG19**  | 75%      | 0.77       | 0.75   | 0.75     | ![image](https://github.com/user-attachments/assets/2c4da798-a558-45c6-965f-a7f4f48b1ba9) | ![image](https://github.com/user-attachments/assets/06218327-c539-4199-bd16-ebe6cd3f1969) |
+| **InceptionV3** | 88% | 0.89       | 0.88   | 0.88     | ![image](https://github.com/user-attachments/assets/14f0fbe5-bda7-42fc-be21-b55f746739a8) | ![image](https://github.com/user-attachments/assets/af83ce3a-99f3-438a-a8b8-1b4b49f06c93) |
+| **ResNet50** | 66%   | 0.74       | 0.66   | 0.65     | ![image](https://github.com/user-attachments/assets/f5fac108-bfa9-4571-b94a-4ff18437a09b) | ![image](https://github.com/user-attachments/assets/cd8b76ad-cea7-4158-a446-4048dcffdaf7) |
+| **Xception** | 87%   | 0.88       | 0.87   | 0.87     | ![image](https://github.com/user-attachments/assets/4c5dba18-a3ab-4b58-920d-0bcbfd2053d6) | ![image](https://github.com/user-attachments/assets/9100cc15-e631-4e2a-bc15-5ebb7934e191) |
+| **AlexNet** | 85%    | 0.86       | 0.85   | 0.85     | ![image](https://github.com/user-attachments/assets/25120dd6-fa30-412b-b3ef-6b3ae0ed6d6d) | ![image](https://github.com/user-attachments/assets/0ad3578c-8c1a-4f9f-9f37-23640e3211f3) |
+| **Custom CNN** | 89% | 0.89       | 0.89   | 0.89     | ![image](https://github.com/user-attachments/assets/962d3275-17d7-4c9e-86ec-fdf57c72f504) | ![image](https://github.com/user-attachments/assets/1c5899e5-3d42-4aa9-84b3-7d4fedfd570c) |
 
 ## Classification Reports
 ### **VGG16**
@@ -132,6 +132,10 @@ Each model has an associated **confusion matrix** and **performance graphs** sho
 - **Training & Validation Accuracy**
 - **Training & Validation Loss**
 - **Comparative Model Performance**
+
+![image](https://github.com/user-attachments/assets/9107ec30-9702-4f6f-b31e-3726bf1ae751)
+![image](https://github.com/user-attachments/assets/329e9c88-50d9-4677-adec-25ddf4866472)
+
 
 ## Conclusion
 Among all models, **Custom CNN** performed the best with **89% accuracy**, followed by **InceptionV3** at **88%**. The **VGG and ResNet architectures** showed moderate performance. The **confusion matrices and graphs** provide further insights into model performance.
