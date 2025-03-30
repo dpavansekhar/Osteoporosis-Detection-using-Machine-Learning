@@ -10,6 +10,18 @@ This project focuses on classifying bone conditions using deep learning models t
 ## Dataset
 The dataset consists of **X-ray images** of bones, divided into three classes. The images were preprocessed by resizing, normalizing, and augmenting to enhance the model's performance.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a2f76186-b93e-4638-8c2b-4d00a8803c99" alt="Osteopenia" width="250">
+  <img src="https://github.com/user-attachments/assets/9ae100e7-1ffd-4d6f-947e-076fa5fcf819" alt="Osteoporosis" width="250">
+  <img src="https://github.com/user-attachments/assets/2780e25a-7f1f-492d-ade2-a75d449d2d4f" alt="Normal" width="250">
+</p>
+
+<p align="center">
+  <strong>Osteopenia</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <strong>Osteoporosis</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <strong>Normal</strong>
+</p>
+
 ## Models Used
 We have trained and evaluated the following deep learning models:
 1. **VGG16**
