@@ -3,9 +3,9 @@
 ## Project Overview
 This project focuses on classifying bone conditions using deep learning models trained on X-ray images. The models used include **VGG16, VGG19, InceptionV3, ResNet50, Xception, AlexNet, and a Custom CNN**. The goal is to accurately classify images into three categories:
 
-- **Osteopenia**
-- **Osteoporosis**
-- **Normal**
+- **Osteopenia** ![image](https://github.com/user-attachments/assets/a2f76186-b93e-4638-8c2b-4d00a8803c99)
+- **Osteoporosis** ![image](https://github.com/user-attachments/assets/9ae100e7-1ffd-4d6f-947e-076fa5fcf819)
+- **Normal** ![image](https://github.com/user-attachments/assets/2780e25a-7f1f-492d-ade2-a75d449d2d4f)
 
 ## Dataset
 The dataset consists of **X-ray images** of bones, divided into three classes. The images were preprocessed by resizing, normalizing, and augmenting to enhance the model's performance.
