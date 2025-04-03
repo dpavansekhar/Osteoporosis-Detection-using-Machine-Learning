@@ -22,8 +22,10 @@ The dataset consists of **X-ray images** of bones, divided into three classes. T
   <strong>Normal</strong>
 </p>
 ---
+
 ## Model Architecture
 ![Model Architecture of Osteoporosis Prediction](https://github.com/user-attachments/assets/f7380181-ab19-41bf-b6c5-f159761a6057)
+
 ---
 ## Models Used
 We have trained and evaluated the following deep learning models:
