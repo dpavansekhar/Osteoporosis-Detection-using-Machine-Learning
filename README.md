@@ -1,12 +1,12 @@
 # Osteoporosis Classification using Deep Learning
-
+---
 ## Project Overview
 This project focuses on classifying bone conditions using deep learning models trained on X-ray images. The models used include **VGG16, VGG19, InceptionV3, ResNet50, Xception, AlexNet, and a Custom CNN**. The goal is to accurately classify images into three categories:
 
 - **Osteopenia** 
 - **Osteoporosis** 
 - **Normal** 
-
+---
 ## Dataset
 The dataset consists of **X-ray images** of bones, divided into three classes. The images were preprocessed by resizing, normalizing, and augmenting to enhance the model's performance.
 
@@ -21,11 +21,10 @@ The dataset consists of **X-ray images** of bones, divided into three classes. T
   <strong>Osteoporosis</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <strong>Normal</strong>
 </p>
-
+---
 ## Model Architecture
 ![Model Architecture of Osteoporosis Prediction](https://github.com/user-attachments/assets/f7380181-ab19-41bf-b6c5-f159761a6057)
-
-
+---
 ## Models Used
 We have trained and evaluated the following deep learning models:
 1. **VGG16**
@@ -37,7 +36,7 @@ We have trained and evaluated the following deep learning models:
 7. **Custom CNN**
 
 Each model was trained with the same dataset and evaluated using precision, recall, f1-score, accuracy, and confusion matrices.
-
+---
 ## Performance Metrics
 Below is a summary of the classification performance for each model:
 
@@ -50,7 +49,7 @@ Below is a summary of the classification performance for each model:
 | **Xception** | 87%   | 0.88       | 0.87   | 0.87     | ![image](https://github.com/user-attachments/assets/4c5dba18-a3ab-4b58-920d-0bcbfd2053d6) | ![image](https://github.com/user-attachments/assets/9100cc15-e631-4e2a-bc15-5ebb7934e191) |
 | **AlexNet** | 85%    | 0.86       | 0.85   | 0.85     | ![image](https://github.com/user-attachments/assets/25120dd6-fa30-412b-b3ef-6b3ae0ed6d6d) | ![image](https://github.com/user-attachments/assets/0ad3578c-8c1a-4f9f-9f37-23640e3211f3) |
 | **Custom CNN** | 89% | 0.89       | 0.89   | 0.89     | ![image](https://github.com/user-attachments/assets/962d3275-17d7-4c9e-86ec-fdf57c72f504) | ![image](https://github.com/user-attachments/assets/1c5899e5-3d42-4aa9-84b3-7d4fedfd570c) |
-
+---
 ## Classification Reports
 ### **VGG16**
 ```
@@ -142,20 +141,18 @@ Osteoporosis       0.87      0.92      0.90       159
    macro avg       0.88      0.86      0.87       390
 weighted avg       0.89      0.89      0.89       390
 ```
-
+---
 ## Confusion Matrices & Graphs
 Each model has an associated **confusion matrix** and **performance graphs** showcasing:
 - **Training & Validation Accuracy**
 - **Training & Validation Loss**
 - **Comparative Model Performance**
-
-
+---
 ## Conclusion
 Among all models, **Custom CNN** performed the best with **89% accuracy**, followed by **InceptionV3** at **88%**. The **VGG and ResNet architectures** showed moderate performance. The **confusion matrices and graphs** provide further insights into model performance.
-
+---
 ## Authors
 - **[Dogga Pavan Sekhar]** - AI/ML Researcher
-
 ---
 *This project was developed as part of an ongoing research initiative in medical image classification using deep learning.*
 
