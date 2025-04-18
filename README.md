@@ -10,17 +10,12 @@ This project focuses on classifying bone conditions using deep learning models t
 ## Dataset
 The dataset consists of **X-ray images** of bones, divided into three classes. The images were preprocessed by resizing, normalizing, and augmenting to enhance the model's performance.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a2f76186-b93e-4638-8c2b-4d00a8803c99" alt="Osteopenia" width="250">
-  <img src="https://github.com/user-attachments/assets/9ae100e7-1ffd-4d6f-947e-076fa5fcf819" alt="Osteoporosis" width="250">
-  <img src="https://github.com/user-attachments/assets/2780e25a-7f1f-492d-ade2-a75d449d2d4f" alt="Normal" width="250">
-</p>
+|X-ray Images||||Classification|
+|----------------------|----------------------|----------------------|----------------------|----------------------|
+|![Normal](https://github.com/user-attachments/assets/bdbe54bf-a7f7-45ef-acaa-f54e38c6f6ae)|![Normal](https://github.com/user-attachments/assets/73aef2e4-d48e-4948-b681-39e68e7318c5)|![Normal](https://github.com/user-attachments/assets/92c02e3f-e4bb-4539-a8d4-a22d0190c783)|![Normal](https://github.com/user-attachments/assets/9aa1826a-3e18-482e-9e67-a623b3112462)|Normal|
+|![Osteopenia](https://github.com/user-attachments/assets/58838b3b-7d38-478b-8cbd-1df131fc9baf)|![Osteopenia](https://github.com/user-attachments/assets/5bbfb755-1fef-4c97-a125-8f4f1a1428fb)|![Osteopenia](https://github.com/user-attachments/assets/894b6af5-99f4-45ce-9512-7bc04c9e5501)|![Osteopenia](https://github.com/user-attachments/assets/ad5a447d-d298-4cbb-97ff-658bb94bdd55)|Osteopenia|
+|![Osteoporosis](https://github.com/user-attachments/assets/7456a0cc-38d0-4f14-a176-f22cdf0a5d63)|![Osteoporosis](https://github.com/user-attachments/assets/adf9ab78-dc4f-4ad7-8a25-cac85940d70a)|![Osteoporosis](https://github.com/user-attachments/assets/e8f2773a-d0a4-4753-a55a-0c434aebbea2)|![Osteoporosis](https://github.com/user-attachments/assets/a450f36f-aced-4f55-82a1-85250a0ccc71)|Osteoporosis|
 
-<p align="center">
-  <strong>Osteopenia</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Osteoporosis</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Normal</strong>
-</p>
 
 ## Model Architecture
 ![Model Architecture of Osteoporosis Prediction](https://github.com/user-attachments/assets/f7380181-ab19-41bf-b6c5-f159761a6057)
