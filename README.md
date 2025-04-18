@@ -158,10 +158,10 @@ Each model has an associated **confusion matrix** and **performance graphs** sho
 - **Comparative Model Performance**
 ---
 ## Conclusion
-Among all models, **Custom CNN** performed the best with **89% accuracy**, followed by **InceptionV3** at **88%**. The **VGG and ResNet architectures** showed moderate performance. The **confusion matrices and graphs** provide further insights into model performance.
+##### Among all models, **Custom CNN** performed the best with **89% accuracy**, followed by **InceptionV3** at **88%**. The **VGG and ResNet architectures** showed moderate performance. The **confusion matrices and graphs** provide further insights into model performance.
 ---
 ## Authors
-- **[Dogga Pavan Sekhar]** - AI/ML Researcher
+- **[Dogga Pavan Sekhar](https://www.linkedin.com/in/dogga-pavan-sekhar-006a83252/)** - AI/ML Researcher
 ---
 *This project was developed as part of an ongoing research initiative in medical image classification using deep learning.*
 
