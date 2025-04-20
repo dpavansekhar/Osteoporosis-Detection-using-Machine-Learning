@@ -1,7 +1,7 @@
 # Osteoporosis Classification using Deep Learning
 ---
 ## Project Overview
-This project focuses on classifying bone conditions using deep learning models trained on X-ray images. The models used include **VGG16, VGG19, InceptionV3, ResNet50, Xception, AlexNet, and a Custom CNN**. The goal is to accurately classify images into three categories:
+This project focuses on classifying bone conditions using deep learning models trained on X-ray images. The models used include **VGG16, VGG19, InceptionV3, ResNet50, Xception, AlexNet, MobileNetV2 and a Custom CNN**. The goal is to accurately classify images into three categories:
 
 - **Osteopenia** 
 - **Osteoporosis** 
@@ -10,17 +10,12 @@ This project focuses on classifying bone conditions using deep learning models t
 ## Dataset
 The dataset consists of **X-ray images** of bones, divided into three classes. The images were preprocessed by resizing, normalizing, and augmenting to enhance the model's performance.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a2f76186-b93e-4638-8c2b-4d00a8803c99" alt="Osteopenia" width="250">
-  <img src="https://github.com/user-attachments/assets/9ae100e7-1ffd-4d6f-947e-076fa5fcf819" alt="Osteoporosis" width="250">
-  <img src="https://github.com/user-attachments/assets/2780e25a-7f1f-492d-ade2-a75d449d2d4f" alt="Normal" width="250">
-</p>
+|X-ray Images||||Classification|
+|----------------------|----------------------|----------------------|----------------------|----------------------|
+|![Normal](https://github.com/user-attachments/assets/bdbe54bf-a7f7-45ef-acaa-f54e38c6f6ae)|![Normal](https://github.com/user-attachments/assets/73aef2e4-d48e-4948-b681-39e68e7318c5)|![Normal](https://github.com/user-attachments/assets/92c02e3f-e4bb-4539-a8d4-a22d0190c783)|![Normal](https://github.com/user-attachments/assets/9aa1826a-3e18-482e-9e67-a623b3112462)|Normal|
+|![Osteopenia](https://github.com/user-attachments/assets/58838b3b-7d38-478b-8cbd-1df131fc9baf)|![Osteopenia](https://github.com/user-attachments/assets/5bbfb755-1fef-4c97-a125-8f4f1a1428fb)|![Osteopenia](https://github.com/user-attachments/assets/894b6af5-99f4-45ce-9512-7bc04c9e5501)|![Osteopenia](https://github.com/user-attachments/assets/ad5a447d-d298-4cbb-97ff-658bb94bdd55)|Osteopenia|
+|![Osteoporosis](https://github.com/user-attachments/assets/7456a0cc-38d0-4f14-a176-f22cdf0a5d63)|![Osteoporosis](https://github.com/user-attachments/assets/adf9ab78-dc4f-4ad7-8a25-cac85940d70a)|![Osteoporosis](https://github.com/user-attachments/assets/e8f2773a-d0a4-4753-a55a-0c434aebbea2)|![Osteoporosis](https://github.com/user-attachments/assets/a450f36f-aced-4f55-82a1-85250a0ccc71)|Osteoporosis|
 
-<p align="center">
-  <strong>Osteopenia</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Osteoporosis</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Normal</strong>
-</p>
 
 ## Model Architecture
 ![Model Architecture of Osteoporosis Prediction](https://github.com/user-attachments/assets/f7380181-ab19-41bf-b6c5-f159761a6057)
@@ -48,7 +43,11 @@ Below is a summary of the classification performance for each model:
 | **ResNet50** | 66%   | 0.74       | 0.66   | 0.65     | ![image](https://github.com/user-attachments/assets/f5fac108-bfa9-4571-b94a-4ff18437a09b) | ![image](https://github.com/user-attachments/assets/cd8b76ad-cea7-4158-a446-4048dcffdaf7) |
 | **Xception** | 87%   | 0.88       | 0.87   | 0.87     | ![image](https://github.com/user-attachments/assets/4c5dba18-a3ab-4b58-920d-0bcbfd2053d6) | ![image](https://github.com/user-attachments/assets/9100cc15-e631-4e2a-bc15-5ebb7934e191) |
 | **AlexNet** | 85%    | 0.86       | 0.85   | 0.85     | ![image](https://github.com/user-attachments/assets/25120dd6-fa30-412b-b3ef-6b3ae0ed6d6d) | ![image](https://github.com/user-attachments/assets/0ad3578c-8c1a-4f9f-9f37-23640e3211f3) |
+| **MobileNetV2** | 84% | 0.82 | 0.84 | 0.82 | ![image](https://github.com/user-attachments/assets/c7c04cfe-5f43-4d88-9806-7d32f4c4103c) | ![image](https://github.com/user-attachments/assets/6ef85407-5f80-45f7-aba7-c5fe5af90d25)| 
 | **Custom CNN** | 89% | 0.89       | 0.89   | 0.89     | ![image](https://github.com/user-attachments/assets/962d3275-17d7-4c9e-86ec-fdf57c72f504) | ![image](https://github.com/user-attachments/assets/1c5899e5-3d42-4aa9-84b3-7d4fedfd570c) |
+|**VGG 16 + VGG 19**|80%|0.81|0.80|0.81|||
+|**InceptionV3 + Xception**|84%|0.83|0.84|0.83|||
+|**ResNet50 + DenseNet121**|82%|0.82|0.78|0.79|||
 ---
 ## Classification Reports
 ### **VGG16**
@@ -140,6 +139,60 @@ Osteoporosis       0.87      0.92      0.90       159
     accuracy                           0.89       390
    macro avg       0.88      0.86      0.87       390
 weighted avg       0.89      0.89      0.89       390
+```
+
+### **MobileNet V2**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.73      0.72      0.72        75
+Osteoporosis       0.75      0.83      0.79       159
+      Normal       0.86      0.78      0.82       156
+
+    accuracy                           0.79       390
+   macro avg       0.78      0.78      0.78       390
+weighted avg       0.79      0.79      0.79       390
+```
+
+## Ensemble Learning
+
+### **VGG 16 + VGG 19**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.78      0.83      0.80        75
+Osteoporosis       0.75      0.86      0.80       159
+      Normal       0.89      0.73      0.80       156
+
+    accuracy                           0.80       390
+   macro avg       0.81      0.81      0.80       390
+weighted avg       0.81      0.80      0.80       390
+```
+
+### **InceptionV3 + Xception**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.78      0.77      0.78        75
+Osteoporosis       0.83      0.87      0.85       159
+      Normal       0.89      0.85      0.87       156
+
+    accuracy                           0.84       390
+   macro avg       0.83      0.83      0.83       390
+weighted avg       0.84      0.84      0.84       390
+```
+
+### **ResNet50 + DenseNet121**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.83      0.57      0.68        75
+Osteoporosis       0.79      0.92      0.85       159
+      Normal       0.85      0.84      0.85       156
+
+    accuracy                           0.82       390
+   macro avg       0.82      0.78      0.79       390
+weighted avg       0.82      0.82      0.82       390
 ```
 ---
 ## Confusion Matrices & Graphs
