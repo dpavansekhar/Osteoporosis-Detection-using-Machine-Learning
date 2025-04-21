@@ -59,7 +59,7 @@ Below is a summary of the classification performance for each model:
 |**Xception + DenseNet121**|85%|0.85|0.85|0.85|![image](https://github.com/user-attachments/assets/7214f53f-68d1-41cc-9571-3f5a1d574cfc)||
 |**MobileNetV2 + Xception**|84%|0.85|0.84|0.84|![image](https://github.com/user-attachments/assets/03b94b8f-e297-450d-98f1-ec4374ae9912)||
 |**InceptionV3 + MobileNetV2**|84%|0.85|0.84|0.84|![image](https://github.com/user-attachments/assets/270ef149-61f9-415d-8652-c3d0969531ed)||
-|**Custom CNN + DenseNet121**|85%|0.85|0.85|0.85|||
+|**Custom CNN + DenseNet121**|85%|0.85|0.85|0.85|![image](https://github.com/user-attachments/assets/f2dd1ff9-1a2e-49f1-8567-e5333f7c15af)||
 ---
 ## Classification Reports
 ### **VGG16**
