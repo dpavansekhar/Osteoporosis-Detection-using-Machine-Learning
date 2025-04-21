@@ -51,14 +51,15 @@ Below is a summary of the classification performance for each model:
 | **MobileNetV2** | 84% | 0.82 | 0.84 | 0.82 | ![image](https://github.com/user-attachments/assets/c7c04cfe-5f43-4d88-9806-7d32f4c4103c) | ![image](https://github.com/user-attachments/assets/6ef85407-5f80-45f7-aba7-c5fe5af90d25)| 
 | **Custom CNN** | 89% | 0.89       | 0.89   | 0.89     | ![image](https://github.com/user-attachments/assets/962d3275-17d7-4c9e-86ec-fdf57c72f504) | ![image](https://github.com/user-attachments/assets/1c5899e5-3d42-4aa9-84b3-7d4fedfd570c) |
 |*Ensemble Learning*|||||||
-|**VGG 16 + VGG 19**|80%|0.81|0.80|0.81|![image](https://github.com/user-attachments/assets/ab18b32f-fef4-43c9-a0c5-719a1d9ee694)||
-|**InceptionV3 + Xception**|84%|0.83|0.84|0.83|![image](https://github.com/user-attachments/assets/0a26ff86-a516-45a9-943b-f4c0ddc231cd)||
-|**ResNet50 + DenseNet121**|82%|0.82|0.78|0.79|![image](https://github.com/user-attachments/assets/178e1015-a7ed-42f2-809e-e156b15bd54c)||
-|**AlexNet + MobileNetV2**|88%|0.88|0.87|0.88|![image](https://github.com/user-attachments/assets/e435e629-8865-42ee-8015-f57f48987816)||
-|**InceptionV3 + DenseNet121**|85%|0.84|0.85|0.84|![image](https://github.com/user-attachments/assets/eb79d438-2aef-43a0-aaf5-011b71020002)||
-|**Xception + DenseNet121**|85%|0.84|0.85|0.84|![image](https://github.com/user-attachments/assets/7214f53f-68d1-41cc-9571-3f5a1d574cfc)||
-|**MobileNetV2 + Xception**|84%|0.83|0.84|0.83|![image](https://github.com/user-attachments/assets/03b94b8f-e297-450d-98f1-ec4374ae9912)||
-|**InceptionV3 + MobileNetV2**|84%|0.83|0.83|0.84|![image](https://github.com/user-attachments/assets/270ef149-61f9-415d-8652-c3d0969531ed)||
+|**VGG 16 + VGG 19**|80%|0.81|0.80|0.80|![image](https://github.com/user-attachments/assets/ab18b32f-fef4-43c9-a0c5-719a1d9ee694)||
+|**InceptionV3 + Xception**|84%|0.84|0.84|0.84|![image](https://github.com/user-attachments/assets/0a26ff86-a516-45a9-943b-f4c0ddc231cd)||
+|**ResNet50 + DenseNet121**|82%|0.82|0.82|0.82|![image](https://github.com/user-attachments/assets/178e1015-a7ed-42f2-809e-e156b15bd54c)||
+|**AlexNet + MobileNetV2**|88%|0.89|0.88|0.88|![image](https://github.com/user-attachments/assets/e435e629-8865-42ee-8015-f57f48987816)||
+|**InceptionV3 + DenseNet121**|85%|0.86|0.85|0.85|![image](https://github.com/user-attachments/assets/eb79d438-2aef-43a0-aaf5-011b71020002)||
+|**Xception + DenseNet121**|85%|0.85|0.85|0.85|![image](https://github.com/user-attachments/assets/7214f53f-68d1-41cc-9571-3f5a1d574cfc)||
+|**MobileNetV2 + Xception**|84%|0.85|0.84|0.84|![image](https://github.com/user-attachments/assets/03b94b8f-e297-450d-98f1-ec4374ae9912)||
+|**InceptionV3 + MobileNetV2**|84%|0.85|0.84|0.84|![image](https://github.com/user-attachments/assets/270ef149-61f9-415d-8652-c3d0969531ed)||
+|**Custom CNN + DenseNet121**|85%|0.85|0.85|0.85|||
 ---
 ## Classification Reports
 ### **VGG16**
@@ -264,6 +265,18 @@ Osteoporosis       0.82      0.86      0.84       159
     accuracy                           0.84       390
    macro avg       0.83      0.83      0.83       390
 weighted avg       0.85      0.84      0.84       390
+```
+### **Custom CNN + DenseNet121**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.83      0.76      0.79        75
+Osteoporosis       0.82      0.91      0.86       159
+      Normal       0.90      0.83      0.87       156
+
+    accuracy                           0.85       390
+   macro avg       0.85      0.84      0.84       390
+weighted avg       0.85      0.85      0.85       390
 ```
 ---
 ## Confusion Matrices & Graphs
