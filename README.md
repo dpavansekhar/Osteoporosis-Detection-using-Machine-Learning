@@ -54,6 +54,11 @@ Below is a summary of the classification performance for each model:
 |**VGG 16 + VGG 19**|80%|0.81|0.80|0.81|![image](https://github.com/user-attachments/assets/ab18b32f-fef4-43c9-a0c5-719a1d9ee694)||
 |**InceptionV3 + Xception**|84%|0.83|0.84|0.83|![image](https://github.com/user-attachments/assets/0a26ff86-a516-45a9-943b-f4c0ddc231cd)||
 |**ResNet50 + DenseNet121**|82%|0.82|0.78|0.79|![image](https://github.com/user-attachments/assets/178e1015-a7ed-42f2-809e-e156b15bd54c)||
+|**AlexNet + MobileNetV2**|88%|0.88|0.87|0.88|||
+|**InceptionV3 + DenseNet121**|85%|0.84|0.85|0.84|||
+|**Xception + DenseNet121**|85%|0.84|0.85|0.84|||
+|**MobileNetV2 + Xception**|84%|0.83|0.84|0.83|||
+|**InceptionV3 + MobileNetV2**|84%|0.83|0.83|0.84|||
 ---
 ## Classification Reports
 ### **VGG16**
@@ -199,6 +204,66 @@ Osteoporosis       0.79      0.92      0.85       159
     accuracy                           0.82       390
    macro avg       0.82      0.78      0.79       390
 weighted avg       0.82      0.82      0.82       390
+```
+### **AlexNet + MobileNetV2**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.86      0.81      0.84        75
+Osteoporosis       0.85      0.94      0.89       159
+      Normal       0.94      0.85      0.89       156
+
+    accuracy                           0.88       390
+   macro avg       0.88      0.87      0.87       390
+weighted avg       0.89      0.88      0.88       390
+```
+### **InceptionV3 + DenseNet121**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.75      0.85      0.80        75
+Osteoporosis       0.84      0.86      0.85       159
+      Normal       0.93      0.84      0.88       156
+
+    accuracy                           0.85       390
+   macro avg       0.84      0.85      0.84       390
+weighted avg       0.86      0.85      0.85       390
+```
+### **Xception + DenseNet121**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.80      0.88      0.84        75
+Osteoporosis       0.81      0.88      0.84       159
+      Normal       0.93      0.79      0.86       156
+
+    accuracy                           0.85       390
+   macro avg       0.84      0.85      0.84       390
+weighted avg       0.85      0.85      0.85       390
+```
+### **MobileNetV2 + Xception**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.76      0.85      0.81        75
+Osteoporosis       0.79      0.88      0.83       159
+      Normal       0.95      0.78      0.86       156
+
+    accuracy                           0.84       390
+   macro avg       0.83      0.84      0.83       390
+weighted avg       0.85      0.84      0.84       390
+```
+### **InceptionV3 + MobileNetV2**
+```
+              precision    recall  f1-score   support
+
+  Osteopenia       0.72      0.80      0.76        75
+Osteoporosis       0.82      0.86      0.84       159
+      Normal       0.94      0.85      0.89       156
+
+    accuracy                           0.84       390
+   macro avg       0.83      0.83      0.83       390
+weighted avg       0.85      0.84      0.84       390
 ```
 ---
 ## Confusion Matrices & Graphs
