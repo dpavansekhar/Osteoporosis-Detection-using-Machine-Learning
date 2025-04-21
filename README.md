@@ -48,8 +48,8 @@ Below is a summary of the classification performance for each model:
 | **ResNet50** | 66%   | 0.74       | 0.66   | 0.65     | ![image](https://github.com/user-attachments/assets/f5fac108-bfa9-4571-b94a-4ff18437a09b) | ![image](https://github.com/user-attachments/assets/cd8b76ad-cea7-4158-a446-4048dcffdaf7) |
 | **Xception** | 87%   | 0.88       | 0.87   | 0.87     | ![image](https://github.com/user-attachments/assets/4c5dba18-a3ab-4b58-920d-0bcbfd2053d6) | ![image](https://github.com/user-attachments/assets/9100cc15-e631-4e2a-bc15-5ebb7934e191) |
 | **AlexNet** | 85%    | 0.86       | 0.85   | 0.85     | ![image](https://github.com/user-attachments/assets/25120dd6-fa30-412b-b3ef-6b3ae0ed6d6d) | ![image](https://github.com/user-attachments/assets/0ad3578c-8c1a-4f9f-9f37-23640e3211f3) |
-|**Late Fusion**|86%|0.86|0.86|0.86|||
-|**DenseNet 121**|83%|0.83|0.83|0.83|||
+|**Late Fusion**|86%|0.86|0.86|0.86|![image](https://github.com/user-attachments/assets/aaadb325-1663-423e-afce-b522d48e88c5)|![image](https://github.com/user-attachments/assets/3ef2e6ce-d88f-47e4-99ef-b9fcf31d528d)|
+|**DenseNet 121**|83%|0.83|0.83|0.83|![image](https://github.com/user-attachments/assets/c092727a-2f21-441c-ae98-c0c04349a9aa)|![image](https://github.com/user-attachments/assets/ea0f040c-18db-493a-8bfb-ab028610d744)|
 | **MobileNetV2** | 84% | 0.82 | 0.84 | 0.82 | ![image](https://github.com/user-attachments/assets/c7c04cfe-5f43-4d88-9806-7d32f4c4103c) | ![image](https://github.com/user-attachments/assets/6ef85407-5f80-45f7-aba7-c5fe5af90d25)| 
 | **Custom CNN** | 89% | 0.89       | 0.89   | 0.89     | ![image](https://github.com/user-attachments/assets/962d3275-17d7-4c9e-86ec-fdf57c72f504) | ![image](https://github.com/user-attachments/assets/1c5899e5-3d42-4aa9-84b3-7d4fedfd570c) |
 |*Ensemble Learning*|||||||
