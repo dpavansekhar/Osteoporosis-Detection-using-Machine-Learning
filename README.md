@@ -361,8 +361,8 @@ The heatmap is overlaid on the original image using a colormap (usually **Jet**)
 |Late Fusion        |Custom CNN         |                   |
 
 ---
-
 ## Conclusion
+
 Among all models, **Custom CNN** performed the best with **89% accuracy**, followed by **InceptionV3** at **88%**. The **VGG and ResNet architectures** showed moderate performance. The **confusion matrices and graphs** provide further insights into model performance.
 ---
 ## Authors
