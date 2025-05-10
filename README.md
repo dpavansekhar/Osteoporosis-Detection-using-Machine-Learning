@@ -353,11 +353,11 @@ The heatmap is overlaid on the original image using a colormap (usually **Jet**)
 
 |Grad-CAM Heatmaps|||
 |-------------------|-------------------|-------------------|
-| | | |
+|![image](https://github.com/user-attachments/assets/af3e3a21-d80a-4a9a-b016-7b15cb326710)|![image](https://github.com/user-attachments/assets/5cc463b6-b649-4f82-a044-55999d18bbb2)|![image](https://github.com/user-attachments/assets/9fd0e0ca-c738-4961-b0aa-25aa6270de79)|
 |VGG 16             |VGG 19             |InceptionV3        |
-| | | |
+|![image](https://github.com/user-attachments/assets/a16bf5b8-5bac-454b-b93b-c33637030af5)|![image](https://github.com/user-attachments/assets/fdc1d0c1-f194-4a8c-98ed-ae21f9945c5e)|![image](https://github.com/user-attachments/assets/f3c4be31-99ee-4247-9344-163e5128beb5)|
 |XceptionNet        |ResNet50           |DenseNet121        |
-| | | |
+|![image](https://github.com/user-attachments/assets/83cb1694-c3ea-40e8-9dd0-78c31012089b)|![image](https://github.com/user-attachments/assets/7dbfddef-3e2b-4a7f-8cc1-d9a0dfe0272b)| |
 |Late Fusion        |Custom CNN         |                   |
 
 ---
