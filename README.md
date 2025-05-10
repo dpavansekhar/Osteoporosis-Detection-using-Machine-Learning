@@ -312,6 +312,56 @@ Each model has an associated **confusion matrix** and **performance graphs** sho
 - **Training & Validation Loss**
 - **Comparative Model Performance**
 ---
+
+
+---
+## 🔍 Grad-CAM Heatmap Explanation
+
+Grad-CAM (Gradient-weighted Class Activation Mapping) is a powerful visualization technique used to understand which regions of an input image a Convolutional Neural Network (CNN) focuses on when making predictions.
+
+### 📌 What is Grad-CAM?
+
+Grad-CAM uses the gradients of any target class flowing into the final convolutional layer to generate a **heatmap** that highlights the important regions in the image for prediction. It helps in making deep learning models more interpretable, especially in tasks like image classification.
+
+### 🌈 Heatmap Color Interpretation
+
+The heatmap is overlaid on the original image using a colormap (usually **Jet**), where each color indicates a different level of importance:
+
+| Color            | Importance Level | Description                                               |
+| ---------------- | ---------------- | --------------------------------------------------------- |
+| 🔵 Blue          | Low              | Regions the model considers less important.               |
+| 🟢 Green         | Medium-Low       | Moderately important areas, not critical.                 |
+| 🟡 Yellow        | Medium-High      | Areas contributing more to the prediction.                |
+| 🔴 Red           | High             | Most influential regions driving the prediction.          |
+| 🔸 Purple        | Very Low         | Negligible impact; mostly ignored by the model.           |
+| 🟠 Orange / Pink | Medium           | Contributing regions, not the most critical but relevant. |
+
+> 🔥 **Red and Yellow regions** show where the model is "looking" the most while making its decision.
+
+### 📈 Why Use Grad-CAM?
+
+* ✅ Helps validate model behavior
+* ✅ Identifies biased or incorrect attention
+* ✅ Useful for debugging and model improvement
+* ✅ Enhances explainability for sensitive applications (e.g., medical imaging)
+
+### 🖼️ Example Use Cases
+
+* Image classification (e.g., "Is this a cough or not?")
+* Object detection
+* Medical diagnosis interpretation (e.g., X-ray analysis)
+
+|Grad-CAM Heatmaps|||
+|-------------------|-------------------|-------------------|
+| | | |
+|VGG 16             |VGG 19             |InceptionV3        |
+| | | |
+|XceptionNet        |ResNet50           |DenseNet121        |
+| | | |
+|Late Fusion        |Custom CNN         |                   |
+
+---
+
 ## Conclusion
 Among all models, **Custom CNN** performed the best with **89% accuracy**, followed by **InceptionV3** at **88%**. The **VGG and ResNet architectures** showed moderate performance. The **confusion matrices and graphs** provide further insights into model performance.
 ---
