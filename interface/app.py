@@ -81,49 +81,49 @@ if 'prediction_history' not in st.session_state:
 # Model information
 MODEL_INFO = {
     "AlexNet": {
-        "file": "saved models\AlexNet_knee_osteo_model.keras",
+        "file": "saved models/AlexNet_knee_osteo_model.keras",
         "description": "Classic CNN architecture with 8 layers",
         "params": "60M parameters",
         "accuracy": "N/A"
     },
     "DenseNet121": {
-        "file": "saved models\DenseNet121_osteo_model.keras",
+        "file": "saved models/DenseNet121_osteo_model.keras",
         "description": "Dense connections for better gradient flow",
         "params": "8M parameters",
         "accuracy": "N/A"
     },
     "InceptionV3": {
-        "file": "saved models\InceptionV3_knee_osteo_model.keras",
+        "file": "saved models/InceptionV3_knee_osteo_model.keras",
         "description": "🏆 RECOMMENDED - Multi-scale feature extraction with inception modules",
         "params": "23M parameters",
         "accuracy": "88%"
     },
     "MobileNetV2": {
-        "file": "saved models\MobileNetV2_knee_osteo_model.keras",
+        "file": "saved models/MobileNetV2_knee_osteo_model.keras",
         "description": "Lightweight model for mobile deployment",
         "params": "3.4M parameters",
         "accuracy": "N/A"
     },
     "ResNet50": {
-        "file": "saved models\ResNet50_knee_osteo_model.keras",
+        "file": "saved models/ResNet50_knee_osteo_model.keras",
         "description": "Deep residual network with skip connections",
         "params": "25M parameters",
         "accuracy": "N/A"
     },
     "VGG16": {
-        "file": "saved models\VGG16_knee_osteo_model.keras",
+        "file": "saved models/VGG16_knee_osteo_model.keras",
         "description": "Classic architecture with 16 layers",
         "params": "138M parameters",
         "accuracy": "N/A"
     },
     "VGG19": {
-        "file": "saved models\VGG19_knee_osteo_model.keras",
+        "file": "saved models/VGG19_knee_osteo_model.keras",
         "description": "Deeper VGG with 19 layers",
         "params": "143M parameters",
         "accuracy": "N/A"
     },
     "Xception": {
-        "file": "saved models\Xception_knee_osteo_model.keras",
+        "file": "saved models/Xception_knee_osteo_model.keras",
         "description": "Depthwise separable convolutions",
         "params": "22M parameters",
         "accuracy": "N/A"
