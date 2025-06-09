@@ -64,7 +64,7 @@ Below is a summary of the classification performance for each model:
 ---
 ## Classification Reports
 ### **VGG16**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.82      0.55      0.66        75
@@ -77,7 +77,7 @@ weighted avg       0.74      0.70      0.70       390
 ```
 
 ### **VGG19**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.81      0.73      0.77        75
@@ -90,7 +90,7 @@ weighted avg       0.77      0.75      0.75       390
 ```
 
 ### **InceptionV3**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.85      0.88      0.86        75
@@ -103,7 +103,7 @@ weighted avg       0.89      0.88      0.88       390
 ```
 
 ### **ResNet50**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.87      0.35      0.50        75
@@ -116,7 +116,7 @@ weighted avg       0.74      0.66      0.65       390
 ```
 
 ### **Xception**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.81      0.89      0.85        75
@@ -129,7 +129,7 @@ weighted avg       0.88      0.87      0.87       390
 ```
 
 ### **AlexNet**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.86      0.85      0.86        75
@@ -142,7 +142,7 @@ weighted avg       0.86      0.85      0.85       390
 ```
 
 ### **Late Fusion**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.75      0.84      0.79        75
@@ -155,7 +155,7 @@ weighted avg       0.86      0.86      0.86       390
 ```
 
 ### **DenseNet 121**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.82      0.87      0.84        75
@@ -168,7 +168,7 @@ weighted avg       0.83      0.83      0.83       390
 ```
 
 ### **Custom CNN**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.82      0.75      0.78        75
@@ -181,7 +181,7 @@ weighted avg       0.89      0.89      0.89       390
 ```
 
 ### **MobileNet V2**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.73      0.72      0.72        75
@@ -196,7 +196,7 @@ weighted avg       0.79      0.79      0.79       390
 ## Ensemble Learning
 
 ### **VGG 16 + VGG 19**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.78      0.83      0.80        75
@@ -209,7 +209,7 @@ weighted avg       0.81      0.80      0.80       390
 ```
 
 ### **InceptionV3 + Xception**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.78      0.77      0.78        75
@@ -222,7 +222,7 @@ weighted avg       0.84      0.84      0.84       390
 ```
 
 ### **ResNet50 + DenseNet121**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.83      0.57      0.68        75
@@ -234,7 +234,7 @@ Osteoporosis       0.79      0.92      0.85       159
 weighted avg       0.82      0.82      0.82       390
 ```
 ### **AlexNet + MobileNetV2**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.86      0.81      0.84        75
@@ -246,7 +246,7 @@ Osteoporosis       0.85      0.94      0.89       159
 weighted avg       0.89      0.88      0.88       390
 ```
 ### **InceptionV3 + DenseNet121**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.75      0.85      0.80        75
@@ -258,7 +258,7 @@ Osteoporosis       0.84      0.86      0.85       159
 weighted avg       0.86      0.85      0.85       390
 ```
 ### **Xception + DenseNet121**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.80      0.88      0.84        75
@@ -270,7 +270,7 @@ Osteoporosis       0.81      0.88      0.84       159
 weighted avg       0.85      0.85      0.85       390
 ```
 ### **MobileNetV2 + Xception**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.76      0.85      0.81        75
@@ -282,7 +282,7 @@ Osteoporosis       0.79      0.88      0.83       159
 weighted avg       0.85      0.84      0.84       390
 ```
 ### **InceptionV3 + MobileNetV2**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.72      0.80      0.76        75
@@ -294,7 +294,7 @@ Osteoporosis       0.82      0.86      0.84       159
 weighted avg       0.85      0.84      0.84       390
 ```
 ### **Custom CNN + DenseNet121**
-```
+```bash
               precision    recall  f1-score   support
 
   Osteopenia       0.83      0.76      0.79        75
@@ -364,8 +364,35 @@ The heatmap is overlaid on the original image using a colormap (usually **Jet**)
 ## Conclusion
 
 Among all models, **Custom CNN** performed the best with **89% accuracy**, followed by **InceptionV3** at **88%**. The **VGG and ResNet architectures** showed moderate performance. The **confusion matrices and graphs** provide further insights into model performance.
+
 ---
+
+## 🚀 How to Run This Streamlit App
+
+This project uses [Streamlit](https://streamlit.io/) to create a web interface for osteoporosis detection.
+
+### 📦 Step 1: Clone the Repository
+*Open terminal in your system and clone the repository.*
+```bash
+git clone https://github.com/dpavansekhar/Osteoporosis-Detection-using-Machine-Learning.git
+cd Osteoporosis-Detection-using-Machine-Learning
+```
+
+### 🧪 Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### ▶️ Step 3: Run the App
+*Open the command prompt in the same folder i.e, where the project is present.*
+```bash
+streamlit run interface/app.py
+```
+*This will launch the app in your default browser at https://localhost:8501.*
+
 ## Authors
-- **[Dogga Pavan Sekhar](https://www.linkedin.com/in/dogga-pavan-sekhar-006a83252/)** - AI/ML Researcher
+
+#### **[Dogga Pavan Sekhar](https://www.linkedin.com/in/dogga-pavan-sekhar-006a83252/)** - AI/ML Researcher
 ---
 *This project was developed as part of an ongoing research initiative in medical image classification using deep learning.*
