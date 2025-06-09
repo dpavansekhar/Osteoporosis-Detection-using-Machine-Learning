@@ -367,7 +367,7 @@ Among all models, **Custom CNN** performed the best with **89% accuracy**, follo
 
 ---
 
-## 🚀 How to Run This Streamlit App
+## 🚀 How to Run The Streamlit Application
 
 This project uses [Streamlit](https://streamlit.io/) to create a web interface for osteoporosis detection.
 
