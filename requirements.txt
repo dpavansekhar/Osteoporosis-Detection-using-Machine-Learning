@@ -7,8 +7,8 @@
 # Pillow==9.5.0
 # opencv-python==4.8.1.78
 
-streamlit==1.35.0
-tensorflow==2.15.0
+streamlit
+tensorflow
 numpy
 pillow
 opencv-python
